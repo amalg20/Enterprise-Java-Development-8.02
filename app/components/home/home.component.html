@@ -1,0 +1,43 @@
+<section class="info-section">
+    <div class="content">
+      <div class="profile-container">
+        <img class="profile-img" [src]="personal_image" alt="personal picture">
+  
+        <div class="about-me">
+          <h2>{{ name }}</h2>
+          <p>
+            I am a software Developer with over 5 years of experience in developing applications.
+            I have worked on various projects, from small to large-scale, and have a proven track record of
+            delivering high-quality software solutions on time and within budget.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <mat-card class="professional-info">
+    <mat-card-content>
+      <h2>Professional Information</h2>
+  
+      <mat-list>
+        <mat-list-item>
+          <span class="value">{{ profession }}</span>
+        </mat-list-item>
+        <mat-divider></mat-divider>
+  
+        <mat-list-item>
+          <span class="value">{{ email }}</span>
+        </mat-list-item>
+      </mat-list>
+    </mat-card-content>
+  </mat-card>
+  
+  
+  
+  <div class="projects-container">
+    <h2>Projects</h2>
+    <div class="project-card" *ngFor="let project of projectList">
+      <app-project [projects]="project"></app-project>
+    </div>
+  </div>
+  

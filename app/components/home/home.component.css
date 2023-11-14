@@ -1,0 +1,95 @@
+
+   /* Info Section */
+
+*{
+  color: rgb(78, 99, 125);
+}
+.info-section {
+    padding: 50px ;
+  
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .about-me {
+    padding-left: 20px;
+  }
+  
+  .about-me h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .about-me p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Professional Information */
+  
+  .professional-info {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .professional-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .mat-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .mat-list-item {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .mat-list-item .label {
+    width: 120px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  .mat-list-item .value {
+    flex-grow: 1;
+  }
+  
+  .mat-divider {
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  /* Projects Section */
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  
